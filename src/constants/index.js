@@ -208,7 +208,7 @@ const projects = [
       },
     ],
     image: portfolio,
-    source_code_link: "https://github.com/PrakashNpn/personal-portfolio",
+    source_code_link: "https://github.com/PrakashNpn/personal_portfolio",
   },
   {
     name: "Wallet App",

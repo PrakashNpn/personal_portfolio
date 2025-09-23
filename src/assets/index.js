@@ -29,7 +29,22 @@ import reactNative from "./reactNative.png";
 import freelance from "./freelance.png";
 import seo from "./seo.png";
 
+import idea from "./ideas.svg";
+import concepts from "./concepts.svg";
+import code from "./code.svg";
+import designs from "./designs.svg";
+import myProfile from "./myProfile.png";
+import arrowDown from "./arrow-down.svg";
+import bgLeft from "./bgLeft.png";
+
 export {
+  idea,
+  concepts,
+  code,
+  designs,
+  myProfile,
+  arrowDown,
+  bgLeft,
   logo,
   github,
   menu,

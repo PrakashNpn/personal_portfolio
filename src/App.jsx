@@ -16,7 +16,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <div className="relative z-0">
-        <div className="absolute inset-0 bg-[url('/src/assets/background.png')] bg-cover bg-center bg-fixed z-[-10] "></div>
+        <div className="absolute inset-0 bg-background-main bg-cover bg-center bg-fixed z-[-10] "></div>
         <div className="absolute inset-0 bg-black/60 z-[-5]"></div>
 
         <StarsCanvas />

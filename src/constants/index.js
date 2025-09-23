@@ -1,4 +1,11 @@
 import {
+  idea,
+  concepts,
+  code,
+  designs,
+  myProfile,
+  bgLeft,
+  arrowDown,
   javascript,
   typescript,
   html,
@@ -234,14 +241,14 @@ const projects = [
 ];
 
 const words = [
-  { text: "Ideas", imgPath: "./src/assets/ideas.svg" },
-  { text: "Concepts", imgPath: "./src/assets/concepts.svg" },
-  { text: "Designs", imgPath: "./src/assets/designs.svg" },
-  { text: "Code", imgPath: "./src/assets/code.svg" },
-  { text: "Ideas", imgPath: "./src/assets/ideas.svg" },
-  { text: "Concepts", imgPath: "./src/assets/concepts.svg" },
-  { text: "Designs", imgPath: "./src/assets/designs.svg" },
-  { text: "Code", imgPath: "./src/assets/code.svg" },
+  { text: "Ideas", imgPath: idea },
+  { text: "Concepts", imgPath: concepts },
+  { text: "Designs", imgPath: designs },
+  { text: "Code", imgPath: code },
+  { text: "Ideas", imgPath: idea },
+  { text: "Concepts", imgPath: concepts },
+  { text: "Designs", imgPath: designs },
+  { text: "Code", imgPath: code },
 ];
 
 export { services, technologies, experiences, projects, words };

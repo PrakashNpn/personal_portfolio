@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import Button from "../components/Button";
 import { words } from "../constants";
+import { bgLeft } from "../assets/index";
 
 import { ComputersCanvas } from "./canvas";
 import { useState } from "react";
@@ -12,7 +13,7 @@ const Hero = () => {
   return (
     <section id="hero" className=" relative overflow-hidden">
       <div className="absolute top-0 left-0 z-10">
-        <img src="/src/assets/bg.png" alt="" />
+        <img src={bgLeft} alt="" />
       </div>
 
       <div className="hero-layout">

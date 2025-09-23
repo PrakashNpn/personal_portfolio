@@ -1,5 +1,6 @@
 import { motion, useAnimationFrame } from "framer-motion";
 import { useState } from "react";
+import { myProfile } from "../assets/index";
 
 function makeBlob(
   radius = 200,
@@ -109,7 +110,7 @@ export default function FloatingProfile() {
 
           {/* 🔹 Profile Image clipped inside blob */}
           <motion.image
-            href="/src/assets/myProfile.png"
+            href={myProfile}
             width="100%"
             height="100%"
             preserveAspectRatio="xMidYMid slice"

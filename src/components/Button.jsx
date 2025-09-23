@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import toast from "react-hot-toast";
+import { arrowDown } from "../assets/index";
 
 const Button = ({ text, className, hoverText = null, file }) => {
   const [isHovered, setIsHovered] = useState(false);
@@ -38,7 +39,7 @@ const Button = ({ text, className, hoverText = null, file }) => {
           <div className="cta-bg-circle" />
           <p className="cta-text">{!isHovered ? text : hoverText}</p>
           <div className="cta-arrow-wrapper">
-            <img src="/src/assets/arrow-down.svg" alt="arrow" />
+            <img src={arrowDown} alt="arrow" />
           </div>
         </div>
       </button>

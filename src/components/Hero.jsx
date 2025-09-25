@@ -64,7 +64,7 @@ const Hero = () => {
 
       {/* <AnimatedCounter /> */}
 
-      <div className="absolute xl:bottom-24 bottom-10 w-full flex justify-center items-center z-20">
+      <div className="absolute xl:bottom-16 bottom-10 w-full flex justify-center items-center z-20">
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
             <motion.div

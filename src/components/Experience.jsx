@@ -191,7 +191,7 @@ const Experience = () => {
 
       {/* Vertical line */}
       <motion.div
-        className="absolute left-[30px] md:left-1/2 md:-translate-x-1/2 w-[4px]
+        className="absolute left-[28px] md:left-1/2 md:-translate-x-1/2 w-[4px]
                    bg-gradient-to-b from-pink-500 to-purple-500 origin-top z-0"
         style={{
           top: headerOffset,
